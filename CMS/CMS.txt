@@ -1,0 +1,22 @@
+thématique : esport et actu jv
+
+Arborescense :
+    acceuil (page)
+    lol(catégorie)
+        esport (article)
+        actu (article)
+        live (page)
+    rl(catégorie)
+        esport (article)
+        actu (article)
+        live (page)
+    r6(catégorie)
+        esport (article)
+        actu (article)
+        live (page)
+    actu général (article)
+    contact (page)
+    mention légal (page)
+
+fonctionalité : -suivi des lives sur le site
+        -achat ticket d'event
