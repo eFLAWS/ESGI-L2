@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "f14a0051-b8d8-44f6-8656-dec888728296",
+		"name": "analytics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "fetch analytics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api-partiel/analytics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-partiel",
+						"analytics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create analytics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"report\" : 3,\r\n    \"name\" : \"fqqqq\",\r\n    \"value\" : \"rien\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-partiel/analytics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-partiel",
+						"analytics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update analtyics",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 2,\r\n    \"value\" : \"pasrien\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-partiel/analytics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-partiel",
+						"analytics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete analytics",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-partiel/analytics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-partiel",
+						"analytics"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "6128d7d1-8302-41ce-b583-f3ba188cfe5d",
+		"name": "reports",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "fetch reports",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api-partiel/reports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-partiel",
+						"reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create reports",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reporter\" : 3,\r\n    \"application\" : 4,\r\n    \"name\" : \"reportage\",\r\n    \"description\" : \"hhazha\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-partiel/reports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-partiel",
+						"reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update reports",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 2,\r\n    \"description\" : \"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-partiel/reports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-partiel",
+						"reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete reports",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-partiel/reports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-partiel",
+						"reports"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
